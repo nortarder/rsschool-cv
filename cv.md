@@ -15,7 +15,7 @@ I have no programming experience. Friends advised me to try, and that's why I'm 
     + JavaScript Basis
     + Git, GitHub
     + VS Code
----------
+-----------
 
 ## Code example
 
