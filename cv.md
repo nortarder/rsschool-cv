@@ -6,7 +6,7 @@
     + Email:  nortarder@yandex.ru
 
 ## About me  
---------------
+-------------
 
 I have no programming experience. Friends advised me to try, and that's why I'm doing it now. It is very interesting, I would like to continue my studies further.
 
