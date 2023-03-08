@@ -1,1 +1,1 @@
-# https://github.com/nortarder/rsschool-cv/cv
+# https://github-nortarder/rsschool-cv/cv
