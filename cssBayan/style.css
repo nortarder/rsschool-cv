@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #4543a5;
+}
+
+.accordion-wrap {
+    max-width: 50vw;
+    margin: 0 auto;
+}
+
+.wrap-li{
+    list-style-type: none;
+}
+
+.accordion__tabs:hover p {
+    color: #0e0000;
+    transition: all 0.3s;
+}
+
+.wrap-label {
+    font-size: 1.75em;
+    color: #3eb147fb;
+}
+
+span {
+    opacity: 0;   
+    font-weight: 900;
+    color: #000000;
+}
+.tab__img {
+    display: block;
+}
+
+.tab__item-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background: #503888;
+    text-align: center;
+    
+}
+
+.wrap-input{
+    display: none;
+}
+
+.wrap-label:hover {
+    color: #090909;
+    cursor: auto;
+}
+
+.wrap-input + .wrap-label > img {
+    max-height: 0;
+    border: 0;
+}
+.wrap-input:checked + .wrap-label > img {
+    display: block;
+    max-height: 20rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem; 
+}
+
+.wrap-li:hover .tab__img {
+    max-height: 20rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.wrap-input:checked + .wrap-label p {
+    color: #000000;
+}
+
+.wrap-input:hover + .wrap-label span {
+    opacity: 1;
+    transform: rotate(135deg);
+    transition: all 0.5s;
+}
+
+.accordion-wrap-ul:hover .wrap-label span {
+    opacity: 1;   
+}
+
+@media screen and (min-width: 320px) {
+    .accordion-wrap {
+        max-width: 80vw;
+        padding: 0 1.25rem;
+    }
+    .accordion-wrap-title {
+        font-size: 1.25em;
+        padding: 1.2rem 0;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .accordion-wrap {
+        max-width: 60vw;
+        padding: 0 1.5rem;
+    }
+    .accordion-wrap-title {
+        font-size: 1.9em;
+        padding: 1.5rem 0;
+    }
+ 
+}
+
+@media only screen and (max-width: 1920px) {
+    .accordion-wrap {
+        max-width: 55vw;
+    }
+    .accordion__title {
+        font-size: 2em;
+        padding: 2rem 0 1.5rem;
+    }
+}
